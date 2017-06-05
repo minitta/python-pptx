@@ -67,6 +67,9 @@ class CONTENT_TYPE(object):
     MS_PHOTO = (
         'image/vnd.ms-photo'
     )
+    MS_VIDEO = (
+        'video/msvideo'
+    )
     OFC_CHART_COLORS = (
         'application/vnd.ms-office.chartcolorstyle+xml'
     )
@@ -301,6 +304,9 @@ class CONTENT_TYPE(object):
     TIFF = (
         'image/tiff'
     )
+    VIDEO = (
+        'video/unknown'
+    )
     WML_COMMENTS = (
         'application/vnd.openxmlformats-officedocument.wordprocessingml.comm'
         'ents+xml'
@@ -367,6 +373,9 @@ class CONTENT_TYPE(object):
     )
     X_FONT_TTF = (
         'application/x-font-ttf'
+    )
+    X_MS_VIDEO = (
+        'video/x-msvideo'
     )
     X_WMF = (
         'image/x-wmf'
